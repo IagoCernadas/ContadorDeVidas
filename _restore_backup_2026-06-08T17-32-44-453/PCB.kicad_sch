@@ -2065,40 +2065,64 @@
 		(uuid "c52b84c6-f054-4b2a-ad37-c55cf85ec657")
 	)
 	(no_connect
-		(at 99.06 111.76)
+		(at 99.06 110.49)
 		(uuid "04ec33f5-c01b-4c58-97f1-a12e8b0c8e7a")
 	)
 	(no_connect
-		(at 73.66 101.6)
+		(at 73.66 100.33)
 		(uuid "0a4e0937-af42-46f9-beb8-447088aed56a")
 	)
 	(no_connect
-		(at 99.06 104.14)
+		(at 99.06 102.87)
 		(uuid "45f56031-b73a-4522-93c5-0a2e1fc65161")
 	)
 	(no_connect
-		(at 99.06 109.22)
+		(at 99.06 107.95)
 		(uuid "66ca149a-f743-4850-b0bf-68f6761d44a2")
 	)
 	(no_connect
-		(at 73.66 96.52)
+		(at 73.66 95.25)
 		(uuid "708c2cab-4079-41ac-b665-bf251ccf7272")
 	)
 	(no_connect
-		(at 73.66 104.14)
+		(at 99.06 92.71)
+		(uuid "83c931f8-b0ae-4573-81c1-f3726e86c49a")
+	)
+	(no_connect
+		(at 73.66 102.87)
 		(uuid "8cab48ad-de45-40a1-81aa-1e32ca110113")
 	)
 	(no_connect
-		(at 73.66 93.98)
+		(at 99.06 90.17)
+		(uuid "9e3b6f34-6393-42c9-8e64-234be42f778b")
+	)
+	(no_connect
+		(at 99.06 87.63)
+		(uuid "a6092e0e-a59d-4710-97bc-8f1f664813c6")
+	)
+	(no_connect
+		(at 99.06 95.25)
+		(uuid "b90ee1eb-12ef-4b25-9f1c-e04f7006f227")
+	)
+	(no_connect
+		(at 73.66 92.71)
 		(uuid "c4f2934a-4c2c-4ae4-b088-26e6c95ffdc0")
 	)
 	(no_connect
-		(at 99.06 106.68)
+		(at 99.06 97.79)
+		(uuid "cf4d522e-761e-4367-b31e-e93eaf16ced5")
+	)
+	(no_connect
+		(at 99.06 105.41)
 		(uuid "d026530e-3389-40dd-a8bc-836ee64ee278")
+	)
+	(no_connect
+		(at 99.06 100.33)
+		(uuid "ea8eebda-7d4d-4eba-b546-f6e4877447b9")
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 64.77 87.63)
+			(xy 64.77 80.01) (xy 64.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2108,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 73.66) (xy 73.66 88.9)
+			(xy 73.66 87.63) (xy 73.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2128,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 64.77) (xy 88.9 81.28)
+			(xy 88.9 64.77) (xy 88.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2138,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 86.36 81.28)
+			(xy 64.77 80.01) (xy 86.36 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2198,7 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 124.46) (xy 86.36 124.46)
+			(xy 64.77 123.19) (xy 86.36 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2258,16 +2282,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 114.3) (xy 99.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e2fbb23-f5cc-49a3-9a87-00bcd91b95c0")
-	)
-	(wire
-		(pts
 			(xy 74.93 60.96) (xy 74.93 64.77)
 		)
 		(stroke
@@ -2288,16 +2302,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 116.84) (xy 99.06 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a5a2dd-3c07-4717-91c5-8f7c5646eb1a")
-	)
-	(wire
-		(pts
 			(xy 74.93 64.77) (xy 88.9 64.77)
 		)
 		(stroke
@@ -2308,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 92.71) (xy 64.77 124.46)
+			(xy 64.77 92.71) (xy 64.77 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2336,56 +2340,6 @@
 		)
 		(uuid "e591bb69-8810-486a-8f88-f34f44bdcf63")
 	)
-	(label "CLK"
-		(at 99.06 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0371b1aa-7772-47a1-b1b1-a5bf58525b6e")
-	)
-	(label "CLK"
-		(at 160.02 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "100f8ba5-3de1-4c01-87b3-9e85d00c4410")
-	)
-	(label "CLK"
-		(at 158.75 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10697994-6d1b-4357-80ca-078a2b24b3aa")
-	)
-	(label "DIO2"
-		(at 160.02 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16f5b51f-4cf8-4a98-b076-7ec2684b940f")
-	)
-	(label "CLK"
-		(at 160.02 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "226ebe23-7c66-4577-a147-96a5afaf4a15")
-	)
 	(label ""
 		(at 71.12 139.7 0)
 		(fields_autoplaced yes)
@@ -2408,26 +2362,6 @@
 				(justify left)
 			)
 		)
-	)
-	(label "DIO4"
-		(at 160.02 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2430bf6d-3c63-4e68-9162-686afa69c430")
-	)
-	(label "CLK"
-		(at 160.02 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3383c5ee-5d8f-4d78-8809-111b55c8527c")
 	)
 	(label ""
 		(at 99.06 115.57 0)
@@ -2452,16 +2386,6 @@
 			)
 		)
 	)
-	(label "DIO1"
-		(at 99.06 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60b16236-6749-42fa-9f75-3538782729f5")
-	)
 	(label ""
 		(at 71.12 142.24 0)
 		(fields_autoplaced yes)
@@ -2484,56 +2408,6 @@
 				(justify left)
 			)
 		)
-	)
-	(label "DIO5"
-		(at 99.06 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c7322e7-d633-4083-8584-1a4b98a1fc42")
-	)
-	(label "DIO3"
-		(at 160.02 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6fb6947-c3e0-45a9-b4da-6b5d91f08eb6")
-	)
-	(label "DIO3"
-		(at 99.06 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb5c7e7f-74f6-4be5-aff4-21dfd322c640")
-	)
-	(label "DIO5"
-		(at 160.02 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbaa5f45-5adc-41e2-90b8-13ed21a864d5")
-	)
-	(label "DIO4"
-		(at 99.06 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d07fda36-0437-448a-9ceb-1ed77e206ff9")
 	)
 	(label ""
 		(at 73.66 87.63 0)
@@ -2581,26 +2455,6 @@
 			)
 		)
 	)
-	(label "CLK"
-		(at 160.02 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e26d895b-7630-4f09-9708-99a6fb032f7c")
-	)
-	(label "DIO2"
-		(at 99.06 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3ee023f-6840-499c-b144-ad711b3f2261")
-	)
 	(label ""
 		(at 99.06 113.03 0)
 		(fields_autoplaced yes)
@@ -2623,16 +2477,6 @@
 				(justify left)
 			)
 		)
-	)
-	(label "DIO1"
-		(at 158.75 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9db7253-cf61-4466-9d90-8ada9fddd399")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3469,7 +3313,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32L0:STM32L010F4Px")
-		(at 86.36 104.14 0)
+		(at 86.36 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3480,7 +3324,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f48adc7-6c41-46af-b2a1-dcaafbab97a7")
 		(property "Reference" "U1"
-			(at 88.5033 124.46 0)
+			(at 88.5033 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3491,7 +3335,7 @@
 			)
 		)
 		(property "Value" "STM32L010F4Px"
-			(at 88.5033 127 0)
+			(at 88.5033 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3503,7 +3347,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 76.2 121.92 0)
+			(at 76.2 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3515,7 +3359,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l010f4.pdf"
-			(at 86.36 104.14 0)
+			(at 86.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3526,7 +3370,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32 MHz, 1.8-3.6V, 16 GPIO, TSSOP20"
-			(at 86.36 104.14 0)
+			(at 86.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4610,206 +4454,8 @@
 		)
 	)
 	(sheet
-		(at 160.02 140.97)
-		(size 22.86 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "1a8a77d5-7ffd-44ff-bd39-6c1df4c09693")
-		(property "Sheetname" "disp_4boto4"
-			(at 160.02 140.2584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "disp_4boto.kicad_sch"
-			(at 160.02 165.6846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 160.02 146.05 180)
-			(uuid "ce6f2ba1-63d1-41b2-9a50-487129e5fba0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIO" bidirectional
-			(at 160.02 152.4 180)
-			(uuid "46b76dbf-e233-4fd0-98d5-a81fb9f06775")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PCB"
-				(path "/5047df24-daa0-4b10-99b0-61c70bd13b2b"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 160.02 80.01)
-		(size 22.86 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "5fae658e-f12a-423a-bd38-51102e9675f0")
-		(property "Sheetname" "disp_4boto1"
-			(at 160.02 79.2984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "disp_4boto.kicad_sch"
-			(at 160.02 104.7246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 160.02 85.09 180)
-			(uuid "595e406b-a3f5-4887-bb16-3f1695ffa645")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIO" bidirectional
-			(at 160.02 91.44 180)
-			(uuid "a61c615e-bed3-44ce-a1ac-5455c99b83fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PCB"
-				(path "/5047df24-daa0-4b10-99b0-61c70bd13b2b"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 160.02 110.49)
-		(size 22.86 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "6a9f1925-fa87-43a6-a4fd-2d4bcf3f74be")
-		(property "Sheetname" "disp_4boto3"
-			(at 160.02 109.7784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "disp_4boto.kicad_sch"
-			(at 160.02 135.2046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 160.02 115.57 180)
-			(uuid "6eac99dc-a93d-4d99-9b18-34931c382570")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIO" bidirectional
-			(at 160.02 121.92 180)
-			(uuid "1439fb32-0668-42e1-ac7e-68d4a1e7df63")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PCB"
-				(path "/5047df24-daa0-4b10-99b0-61c70bd13b2b"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 158.75 45.72)
-		(size 22.86 24.13)
+		(at 107.95 13.97)
+		(size 121.92 137.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4824,7 +4470,7 @@
 		)
 		(uuid "73dfe5b3-ed9c-4d5e-9202-0f09bde535cf")
 		(property "Sheetname" "disp_4boto"
-			(at 158.75 45.0084 0)
+			(at 107.95 13.2584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4835,7 +4481,7 @@
 			)
 		)
 		(property "Sheetfile" "disp_4boto.kicad_sch"
-			(at 158.75 70.4346 0)
+			(at 107.95 151.7146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4843,98 +4489,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 158.75 50.8 180)
-			(uuid "7b9c232f-45b3-4797-af81-5fbfd5b20889")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIO" bidirectional
-			(at 158.75 57.15 180)
-			(uuid "ffe44875-672e-4b2e-bd81-7358044e2d99")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
 			(project "PCB"
 				(path "/5047df24-daa0-4b10-99b0-61c70bd13b2b"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 160.02 170.18)
-		(size 24.13 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "da884ac6-5a24-4d53-bcce-885fbd21198f")
-		(property "Sheetname" "disp_10_bot"
-			(at 160.02 169.4684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "disp_10_bot.kicad_sch"
-			(at 160.02 193.6246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DIO" bidirectional
-			(at 160.02 181.61 180)
-			(uuid "2afc367a-d36a-4b7e-81ae-00e3c8c16a34")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLK" input
-			(at 160.02 173.99 180)
-			(uuid "0f02980e-089a-4ca9-bac3-d2747995d612")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PCB"
-				(path "/5047df24-daa0-4b10-99b0-61c70bd13b2b"
-					(page "4")
 				)
 			)
 		)

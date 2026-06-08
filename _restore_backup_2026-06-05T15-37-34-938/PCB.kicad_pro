@@ -688,33 +688,13 @@
         "uuid": "5047df24-daa0-4b10-99b0-61c70bd13b2b"
       }
     ],
-    "used_designators": "U9,U12,SW9,SW11-13,SW22-24,SW26-28,R5-6,C17-20,#PWR48,#PWR59-62",
+    "used_designators": "R1-4,#PWR37-41,#PWR47-49,SW1-4",
     "variants": []
   },
   "sheets": [
     [
       "5047df24-daa0-4b10-99b0-61c70bd13b2b",
       "Raíz"
-    ],
-    [
-      "73dfe5b3-ed9c-4d5e-9202-0f09bde535cf",
-      "disp_4boto"
-    ],
-    [
-      "5fae658e-f12a-423a-bd38-51102e9675f0",
-      "disp_4boto1"
-    ],
-    [
-      "da884ac6-5a24-4d53-bcce-885fbd21198f",
-      "disp_10_bot"
-    ],
-    [
-      "6a9f1925-fa87-43a6-a4fd-2d4bcf3f74be",
-      "disp_4boto3"
-    ],
-    [
-      "1a8a77d5-7ffd-44ff-bd39-6c1df4c09693",
-      "disp_4boto4"
     ]
   ],
   "text_variables": {
